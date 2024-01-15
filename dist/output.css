@@ -543,3 +543,53 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-\[50\%\] {
+  top: 50%;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[50\] {
+  left: 50;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.bg-Yellow {
+  --tw-bg-opacity: 1;
+  background-color: hsl(47 88% 63% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.align-middle {
+  vertical-align: middle;
+}
