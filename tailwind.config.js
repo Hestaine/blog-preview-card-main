@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
+    screens: {
+      'sm': '375px',
+      'lg': '1440px'
+    },
     extend: {
       colors: {
         Yellow: "hsl(47, 88%, 63%)",
