@@ -12,18 +12,18 @@
   <title>Hestaine's Blog preview card</title>
 </head>
 <body class="bg-Yellow relative">
-  <section class="bg-white absolute top-[5rem] sm:left-[5%] flex flex-col gap-[2rem] p-[1.4rem] rounded-3xl sm:w-[90%]">
+  <section class="bg-white absolute sm:top-[2rem] sm:left-[5%] flex flex-col gap-[1.5rem] p-[1.4rem] rounded-3xl sm:w-[90%] ">
     <picture class="illus-img">
       <img src="./images/illustration-article.svg" alt="illustration" class="w-[100%] rounded-2xl"> 
     </picture>
-    <main>
-      <p class="learn">Learning</p>
-      <p class="published">Published 21 Dec 2023</p>
-      <h3 class="foundations">HTML & CSS foundations</h3>
-      <p class="explanation">These languages are the backbone of every website, defining structure, content, and presentation.</p>
-      <div class="profile">
-        <img src="./images/image-avatar.webp" alt="profile">
-        <h4>Greg Hooper</h4>
+    <main class="flex flex-col gap-[1.2rem]">
+      <p class="bg-Yellow sm:w-[22%] px-[12px] py-[2px] rounded text-black">Learning</p>
+      <p class="published font-semibold">Published 21 Dec 2023</p>
+      <h3 class="foundations text-[1.7rem] font-extrabold hover:text-Yellow hover:cursor-pointer">HTML & CSS foundations</h3>
+      <p class="explanation text-[16px] text-Grey font-semibold">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <div class="profile flex items-center gap-[1rem]">
+        <img src="./images/image-avatar.webp" alt="profile" class="hover:border-Yellow hover:border-[2px] hover: hover:cursor-pointer hover:rounded-full">
+        <h4 class="font-extrabold hover:text-Yellow hover:cursor-pointer">Greg Hooper</h4>
       </div>
     </main>
   </section>
