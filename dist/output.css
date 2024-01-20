@@ -675,7 +675,7 @@ video {
   color: hsl(47 88% 63% / var(--tw-text-opacity));
 }
 
-@media (min-width: 375px) {
+@media (min-width: 340px) {
   .sm\:left-\[5\%\] {
     left: 5%;
   }
@@ -690,5 +690,33 @@ video {
 
   .sm\:w-\[90\%\] {
     width: 90%;
+  }
+
+  .sm\:w-\[23\%\] {
+    width: 23%;
+  }
+
+  .sm\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .sm\:w-\[27\%\] {
+    width: 27%;
+  }
+
+  .sm\:w-\[28\%\] {
+    width: 28%;
+  }
+
+  .sm\:w-\[29\%\] {
+    width: 29%;
+  }
+
+  .sm\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .sm\:w-\[31\%\] {
+    width: 31%;
   }
 }
