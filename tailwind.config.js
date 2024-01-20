@@ -14,7 +14,7 @@ module.exports = {
         Black: "hsl(0, 0%, 7%)"
       },
       boxShadow: {
-        'big': '6px 6px 6px 8px black',
+        'big': '5px 5px 4px 6px',
       },
       fontFamily: {
         sans: ['Figtree', 'sans-serif'],
